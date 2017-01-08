@@ -51,7 +51,7 @@ if (!empty($_POST['cmd'])) {
         <h2> Output </h2>
     </div>
     <pre>
-<?= $cmd ?>
+<?= htmlspecialchars($cmd, ENT_QUOTES, 'UTF-8') ?>
     </pre>
 <?php endif; ?>
 
