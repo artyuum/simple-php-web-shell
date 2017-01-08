@@ -41,7 +41,7 @@ if (!empty($_POST['cmd'])) {
     <form action="" method="POST">
         <div class="form-group">
             <label for="cmd">Command</label>
-            <input type="text" class="form-control" name="cmd" id="cmd" value="<?= $_POST['cmd'] ?>">
+            <input type="text" class="form-control" name="cmd" id="cmd" value="<?= $_POST['cmd'] ?>" required>
         </div>
         <button type="submit" class="btn btn-default">Execute</button>
     </form>
