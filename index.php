@@ -43,6 +43,7 @@ if (!empty($_POST['cmd'])) {
     <div class="container">
 
         <div class="pb-2 mt-4 mb-2">
+	    <h1>PHP Shell</h1>
             <h2> Execute a command </h2>
         </div>
 
