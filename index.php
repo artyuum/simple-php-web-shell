@@ -13,6 +13,7 @@ if (!empty($_POST['cmd'])) {
     <title>Web Shell</title>
     <style>
         * {
+            -webkit-box-sizing: border-box;
             box-sizing: border-box;
         }
 
@@ -29,7 +30,7 @@ if (!empty($_POST['cmd'])) {
         pre,
         input,
         button {
-            border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+            border-radius: 5px;
         }
 
         pre,
@@ -71,6 +72,8 @@ if (!empty($_POST['cmd'])) {
         }
 
         .form-group {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             padding: 15px 0;
         }
