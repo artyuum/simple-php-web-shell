@@ -89,7 +89,8 @@ if (!empty($_POST['cmd'])) {
         <form method="post">
             <label for="cmd"><strong>Command</strong></label>
             <div class="form-group">
-                <input type="text" name="cmd" id="cmd" value="<?= htmlspecialchars($_POST['cmd'], ENT_QUOTES, 'UTF-8') ?>" required>
+                <input type="text" name="cmd" id="cmd" value="<?= htmlspecialchars($_POST['cmd'], ENT_QUOTES, 'UTF-8') ?>"
+                       onfocus="this.setSelectionRange(this.value.length,this.value.length);" autofocus required>
                 <button type="submit">Execute</button>
             </div>
         </form>
