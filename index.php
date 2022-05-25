@@ -5,7 +5,6 @@ if (!empty($_POST['cmd'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- By Artyum (https://github.com/artyuum) -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
