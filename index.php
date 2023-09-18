@@ -29,12 +29,8 @@ if (!empty($_POST['cmd'])) {
         pre,
         input,
         button {
+            padding: 10px;
             border-radius: 5px;
-        }
-
-        pre,
-        input,
-        button {
             background-color: #efefef;
         }
 
@@ -62,12 +58,6 @@ if (!empty($_POST['cmd'])) {
 
         button:hover {
             background-color: #e6e6e6;
-        }
-
-        pre,
-        input,
-        button {
-            padding: 10px;
         }
 
         .form-group {
